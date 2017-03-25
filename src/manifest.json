@@ -1,0 +1,18 @@
+{
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "manifest_version": 2,
+  "minimum_chrome_version": "56",
+  "name": "Reddit Out",
+  "short_name": "Reddit Out",
+  "description": "Redirect out.reddit.com URLs on the client side.",
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "*://out.reddit.com/*"
+  ],
+  "version": "0.1.0"
+}
